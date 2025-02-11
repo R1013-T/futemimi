@@ -1,5 +1,5 @@
-import SectionContainer from "~/common/components/section-container";
-import VStack from "~/common/components/v-stack";
+import SectionContainer from '~/common/components/section-container'
+import VStack from '~/common/components/v-stack'
 
 export default function ClothesDetailInfo({ brand, description }: { brand: string, description: string }) {
   return (

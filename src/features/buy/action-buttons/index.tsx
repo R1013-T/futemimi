@@ -1,5 +1,5 @@
-import BuyButton from "./buy-button"
-import BackButton from "./back-button"
+import BackButton from './back-button'
+import BuyButton from './buy-button'
 
 export default function ActionButtons() {
   return (

@@ -1,9 +1,9 @@
 'use client'
 
 import { useRouter } from 'next/navigation'
+import { NuqsAdapter } from 'nuqs/adapters/next'
 import { RouterProvider } from 'react-aria-components'
 import { ThemeProvider } from './theme-provider'
-import { NuqsAdapter } from 'nuqs/adapters/next'
 
 declare module 'react-aria-components' {
   interface RouterConfig {

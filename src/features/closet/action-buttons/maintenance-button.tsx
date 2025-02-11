@@ -21,9 +21,14 @@ export default function MaintenanceButton() {
           </Drawer.Description>
         </Drawer.Header>
         <Drawer.Body className="space-y-1">
-          <Drawer.Close className={buttonStyles()} onPress={() => {
-            setstate('m')
-          }}>申請する</Drawer.Close>
+          <Drawer.Close
+            className={buttonStyles()}
+            onPress={() => {
+              setstate('m')
+            }}
+          >
+            申請する
+          </Drawer.Close>
           <Drawer.Close className="w-full">閉じる</Drawer.Close>
         </Drawer.Body>
       </Drawer.Content>

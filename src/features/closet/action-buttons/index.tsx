@@ -1,6 +1,6 @@
-import ReleaseButton from "./release-button"
-import MaintenanceButton from "./maintenance-button"
-import BackButton from "./back-button"
+import BackButton from './back-button'
+import MaintenanceButton from './maintenance-button'
+import ReleaseButton from './release-button'
 
 export default function ActionButtons() {
   return (

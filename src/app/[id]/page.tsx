@@ -19,7 +19,7 @@ export default async function ClothesDetail({ params }: { params: Promise<{ id: 
 
   return (
     <PageLayout
-      className='pb-20'
+      className="pb-20"
     >
       <VStack>
         <Image
@@ -38,27 +38,37 @@ export default async function ClothesDetail({ params }: { params: Promise<{ id: 
         />
         <div className="flex gap-1 flex-wrap">
           <SectionContainer>
-            <p className='text-xs font-bold mb-2' >寸法</p>
+            <p className="text-xs font-bold mb-2">寸法</p>
             <ul>
               {clothes.size.map((size, index) => (
-                <li key={index} >
-                  <span>{size.category}</span>&nbsp;:&nbsp;<span>{size.centimeters}cm</span>
+                <li key={index}>
+                  <span>{size.category}</span>
+&nbsp;:&nbsp;
+                  <span>
+                    {size.centimeters}
+                    cm
+                  </span>
                 </li>
               ))}
             </ul>
           </SectionContainer>
           <SectionContainer>
-            <p className='text-xs font-bold mb-2' >素材</p>
+            <p className="text-xs font-bold mb-2">素材</p>
             <ul>
               {clothes.materials.map((size, index) => (
-                <li key={index} >
-                  <span>{size.material}</span>&nbsp;:&nbsp;<span>{size.percentage}%</span>
+                <li key={index}>
+                  <span>{size.material}</span>
+&nbsp;:&nbsp;
+                  <span>
+                    {size.percentage}
+                    %
+                  </span>
                 </li>
               ))}
             </ul>
           </SectionContainer>
           <SectionContainer>
-            <p className='text-xs font-bold mb-2'>原産国</p>
+            <p className="text-xs font-bold mb-2">原産国</p>
             <p>{clothes.countryOfOrigin}</p>
           </SectionContainer>
         </div>

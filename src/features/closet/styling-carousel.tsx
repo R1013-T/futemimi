@@ -7,7 +7,7 @@ import SectionContainer from '~/common/components/section-container'
 export function StylingCarousel({ clothesId }: { clothesId: string }) {
   return (
     <SectionContainer>
-      <p className='text-sm mb-2' >スタイリング</p>
+      <p className="text-sm mb-2">スタイリング</p>
       <Carousel className="w-full **:data-[slot=card]:flex **:data-[slot=card]:h-56 **:data-[slot=card]:flex-col **:data-[slot=card]:overflow-hidden">
         <Carousel.Content>
           <Carousel.Item className="basis-1/2">

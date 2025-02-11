@@ -1,4 +1,3 @@
-/* eslint-disable node/prefer-global/process */
 import type { Metadata } from 'next'
 import { Noto_Sans_JP } from 'next/font/google'
 import { Providers } from '~/common/providers'

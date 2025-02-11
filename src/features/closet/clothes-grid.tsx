@@ -2,8 +2,8 @@
 
 import Image from 'next/image'
 import Link from 'next/link'
-import { clothesData } from './data'
 import { useQueryState } from 'nuqs'
+import { clothesData } from './data'
 
 export default function ClothesGridView() {
   const [state, _] = useQueryState('s')
