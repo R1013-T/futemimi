@@ -1,6 +1,6 @@
 'use client'
 
-import type { animate, AnimatePresence, type Inertia, motion, PanInfo, useMotionTemplate, useMotionValue, useMotionValueEvent, useTransform } from 'motion/react'
+import type { animate, AnimatePresence, Inertia, motion, PanInfo, useMotionTemplate, useMotionValue, useMotionValueEvent, useTransform } from 'motion/react'
 
 import type { ButtonProps, DialogProps } from 'react-aria-components'
 import { createContext, use, useState } from 'react'
