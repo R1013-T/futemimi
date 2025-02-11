@@ -43,7 +43,7 @@ export default async function ClothesDetail({ params }: { params: Promise<{ id: 
               {clothes.size.map((size, index) => (
                 <li key={index}>
                   <span>{size.category}</span>
-&nbsp;:&nbsp;
+                  &nbsp;:&nbsp;
                   <span>
                     {size.centimeters}
                     cm
@@ -58,7 +58,7 @@ export default async function ClothesDetail({ params }: { params: Promise<{ id: 
               {clothes.materials.map((size, index) => (
                 <li key={index}>
                   <span>{size.material}</span>
-&nbsp;:&nbsp;
+                  &nbsp;:&nbsp;
                   <span>
                     {size.percentage}
                     %

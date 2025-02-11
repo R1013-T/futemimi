@@ -1,3 +1,4 @@
+import { Suspense } from 'react'
 import { cn } from '~/utils/classes'
 
 export default function PageLayout({
@@ -9,7 +10,9 @@ export default function PageLayout({
 }>) {
   return (
     <article className={cn('max-w-md mx-auto', className)}>
-      {children}
+      <Suspense>
+        {children}
+      </Suspense>
     </article>
   )
 }
