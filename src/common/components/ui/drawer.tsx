@@ -1,7 +1,8 @@
 'use client'
 
-import { animate, AnimatePresence, Inertia, motion, PanInfo, useMotionTemplate, useMotionValue, useMotionValueEvent, useTransform } from 'motion/react'
+import type { Inertia, PanInfo } from 'motion/react'
 import type { ButtonProps, DialogProps } from 'react-aria-components'
+import { animate, AnimatePresence, motion, useMotionTemplate, useMotionValue, useMotionValueEvent, useTransform } from 'motion/react'
 import { createContext, use, useState } from 'react'
 import { Modal, ModalOverlay } from 'react-aria-components'
 import { twJoin } from 'tailwind-merge'
