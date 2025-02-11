@@ -1,7 +1,6 @@
 'use client'
 
-import type { animate, AnimatePresence, Inertia, motion, PanInfo, useMotionTemplate, useMotionValue, useMotionValueEvent, useTransform } from 'motion/react'
-
+import { animate, AnimatePresence, Inertia, motion, PanInfo, useMotionTemplate, useMotionValue, useMotionValueEvent, useTransform } from 'motion/react'
 import type { ButtonProps, DialogProps } from 'react-aria-components'
 import { createContext, use, useState } from 'react'
 import { Modal, ModalOverlay } from 'react-aria-components'
