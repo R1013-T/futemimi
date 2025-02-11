@@ -12,8 +12,11 @@
   },
   "dependencies": {
     "@tailwindcss/postcss": "^4.0.0",
+    "embla-carousel-react": "^8.5.2",
     "justd-icons": "^1.10.24",
+    "motion": "^12.4.2",
     "next": "15.2.0-canary.27",
+    "nuqs": "^2.3.2",
     "react": "19.0.0",
     "react-aria-components": "^1.6.0",
     "react-dom": "19.0.0",

@@ -14,6 +14,7 @@
       "~/*": [
         "./src/*"
       ],
+      "ui": ["./src/common/components/ui"]
     },
     "resolveJsonModule": true,
     "allowJs": true,

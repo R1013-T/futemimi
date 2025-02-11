@@ -3,6 +3,7 @@
 import { useRouter } from 'next/navigation'
 import { RouterProvider } from 'react-aria-components'
 import { ThemeProvider } from './theme-provider'
+import { NuqsAdapter } from 'nuqs/adapters/next'
 
 declare module 'react-aria-components' {
   interface RouterConfig {
@@ -15,7 +16,11 @@ export function Providers({ children }: { children: React.ReactNode }) {
 
   return (
     <RouterProvider navigate={router.push}>
-      <ThemeProvider enableSystem attribute="class">{children}</ThemeProvider>
+      <ThemeProvider enableSystem attribute="class" defaultTheme="light">
+        <NuqsAdapter>
+          {children}
+        </NuqsAdapter>
+      </ThemeProvider>
     </RouterProvider>
   )
 }
