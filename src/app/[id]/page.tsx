@@ -23,7 +23,7 @@ export default async function ClothesDetail({ params }: { params: Promise<{ id: 
     >
       <VStack>
         <Image
-          src={`/clothes/${id}.jpg`}
+          src={`/clothes/${id}.png`}
           alt={id}
           width={300}
           height={300}

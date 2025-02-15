@@ -19,7 +19,7 @@ export default function ClothesGridView() {
         <Link key={item.id} href={`/${item.id}`}>
           <Image
             key={item.id}
-            src={`/clothes/${item.id}.jpg`}
+            src={`/clothes/${item.id}.png`}
             alt={item.description}
             width={300}
             height={300}

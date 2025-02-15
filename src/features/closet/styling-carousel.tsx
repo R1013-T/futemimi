@@ -13,7 +13,7 @@ export function StylingCarousel({ clothesId }: { clothesId: string }) {
           <Carousel.Item className="basis-1/2">
             <Image
               className="rounded-xl"
-              src={`/clothes/${clothesId}_styling01.jpg`}
+              src={`/clothes/${clothesId}_styling01.png`}
               alt="image 1"
               width={400}
               height={300}
@@ -22,7 +22,7 @@ export function StylingCarousel({ clothesId }: { clothesId: string }) {
           <Carousel.Item className="basis-1/2">
             <Image
               className="rounded-xl"
-              src={`/clothes/${clothesId}_styling02.jpg`}
+              src={`/clothes/${clothesId}_styling02.png`}
               alt="image 2"
               width={400}
               height={300}
@@ -31,7 +31,7 @@ export function StylingCarousel({ clothesId }: { clothesId: string }) {
           <Carousel.Item className="basis-1/2">
             <Image
               className="rounded-xl"
-              src={`/clothes/${clothesId}_styling03.jpg`}
+              src={`/clothes/${clothesId}_styling03.png`}
               alt="image 3"
               width={400}
               height={300}
@@ -40,7 +40,7 @@ export function StylingCarousel({ clothesId }: { clothesId: string }) {
           <Carousel.Item className="basis-1/2">
             <Image
               className="rounded-xl"
-              src={`/clothes/${clothesId}_styling04.jpg`}
+              src={`/clothes/${clothesId}_styling04.png`}
               alt="image 4"
               width={400}
               height={300}

@@ -22,7 +22,7 @@ export default function Buy() {
     >
       <VStack>
         <Image
-          src={`/clothes/${id}.jpg`}
+          src={`/clothes/${id}.png`}
           alt={id}
           width={300}
           height={300}
@@ -45,7 +45,7 @@ export default function Buy() {
               {clothes.size.map((size, index) => (
                 <li key={index}>
                   <span>{size.category}</span>
-&nbsp;:&nbsp;
+                  &nbsp;:&nbsp;
                   <span>
                     {size.centimeters}
                     cm
@@ -60,7 +60,7 @@ export default function Buy() {
               {clothes.materials.map((size, index) => (
                 <li key={index}>
                   <span>{size.material}</span>
-&nbsp;:&nbsp;
+                  &nbsp;:&nbsp;
                   <span>
                     {size.percentage}
                     %
